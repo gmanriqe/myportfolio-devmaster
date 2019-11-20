@@ -1,0 +1,76 @@
+@media only screen and (max-width: 1024px) {
+
+}
+
+@media only screen and (max-width: 992px) {
+    .padding-big {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    h1 {
+        font-size: 57px;
+    }
+    h2 {
+        font-size: 40px;
+    }
+    .title h2 {
+        margin-bottom: 37px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    /* hero-banner */
+    .main-hero-banner {
+        background-image: url("../img/hero-banner-mobile.png");
+    }
+    /* about-me */
+    .about-me {
+        flex-direction: column;
+    }
+    .about-me .left,
+    .about-me .right {
+        width: 100%;
+        padding-left: 0;
+        max-width: initial;
+    }
+    .about-me .left {
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+    .about-me .right p {
+        max-width: initial;
+    }
+    .about-me .left img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    /* services */
+    .services {
+        flex-direction: column;
+        align-items: center;
+    }
+    .services-item {
+        width: 100%;
+    }
+    .services-item:not(:last-child) {
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+    /* expertises */
+    .expertises {
+        flex-direction: column;
+    }
+    .expertises .left,
+    .expertises .right {
+        max-width: initial;
+        width: 100%;
+    }
+    .expertises .left {
+        margin-bottom: 30px;
+    }
+}
+
+@media only screen and (max-width: 567px) {
+
+}
