@@ -103,3 +103,28 @@ var clip = new google.maps.Marker({
     map: mapa
 });
 }
+
+$(document).ready(function(){
+    /*
+    *   To the top
+    */
+    $("#toTheTop").on("click", function(){
+        console.log("hola");
+        $("html").animate({
+            scrollTop: 0
+        }, 280);
+    });
+
+    /*
+    *   Scroll
+    */
+    $(window).on("scroll load", function(){
+        var sizeScroll = $(window).scrollTop();
+        if( sizeScroll >= 850) {
+            $("#toTheTop").addClass("visibility-top");
+        }else {
+            $("#toTheTop").removeClass("visibility-top");
+        }
+    });
+});
+
