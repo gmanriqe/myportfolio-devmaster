@@ -19,6 +19,10 @@
 }
 
 @media only screen and (max-width: 768px) {
+    .main-container {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
     /* hero-banner */
     .main-hero-banner {
         background-image: url("../img/hero-banner-mobile.png");
